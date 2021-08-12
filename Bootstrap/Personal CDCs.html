@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <title>Personal CDC´s</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="images folder/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+
+  <div class="p-3 mb-2 bg-primary text-white">
+    <h1>Personal CDCs</h1>
+    <div class="container">
+      <p>¿A quien buscas? &#128064;</p>
+      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+      <br>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>CDC</th>
+            <th>Puesto</th>
+            <th>Nombre</th>
+            <th>N° Empleado</th>
+            <th>Horario</th>
+            <th>Onomástico</th>
+            <th>Observaciones</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+      <tr>
+      <td>CDC 02</td>
+      <td>Aux. Administrativo</td>
+      <td>Francisco Javier Barragan</td>
+      <td>18251</td>
+      <td>09:00hrs a 15:00hrs.</td>
+      <td>16/nov</td>
+    </tr>
+    <tr>
+    <td>CDC 02</td>
+      <td>Intendente</td>
+      <td>María Isabel Aguirre Martinez</td>
+      <td>18703</td>
+      <td>14:00hrs a 20:00hrs.</td>
+      <td>11/mar</td>
+    </tr>
+    <tr>
+      <td>CDC 02</td>
+      <td>Tabajadora Social</td>
+      <td>Cristina Mercado Campos </td>
+      <td>19720</td>
+      <td>09:00hrs a 15:00hrs.</td>
+      <td>8/sep</td>
+    </tr>
+    <tr>
+      <td>CDC 02</td>
+      <td>Psicóloga</td>
+      <td>María de Jesus Sanchez Rodríguez </td>
+      <td>19214</td>
+      <td>09:00hrs a 15:00hrs.</td>
+      <td>30/abr</td>
+      <tr>
+        <td>CDC 03</td>
+        <td>T. Social(Administradora)</td>
+        <td>Tania Prado Vargas</td>
+        <td>19184</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>6/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 03</td>
+        <td>Trabajadora Social</td>
+        <td>Nely Carmen Rojas González</td>
+        <td>19070</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>3/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 03</td>
+        <td>Tabajadora Social</td>
+        <td>Martha Eugenia Flores Terriquez </td>
+        <td>19366</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>24/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 03</td>
+        <td>Aux. Cocina</td>
+        <td>Ana Belia Rodríguez Rivera </td>
+        <td>19214</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>27/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 03</td>
+        <td>Promotor Infantil</td>
+        <td>Juan Carlos Cortés </td>
+        <td>18896</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>5/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 03</td>
+        <td>Intendente</td>
+        <td>Itzel Guadalupe Ávila González </td>
+        <td>19802</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>12/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Jefa de Área</td>
+        <td>Carmen Yvette Becerra Campos</td>
+        <td>18700</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>30/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Trabajadora Social</td>
+        <td>Martha Susana Jímenez Estrada  </td>
+        <td>18382</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>1/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Tabajadora Social</td>
+        <td>María Magdalena González Mendoza </td>
+        <td>18406</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>1/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Aux. General</td>
+        <td>José de Jesús Muro Muro </td>
+        <td>18862</td>
+        <td>06:30hrs a 12:30hrs.</td>
+        <td>7/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Promotor Infantil</td>
+        <td>Juan Carlos Cortés </td>
+        <td>18896</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>5/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Psícologo</td>
+        <td>José Eduardo Cabrera García </td>
+        <td>19152</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>3/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 06</td>
+        <td>Educadora(Ludoteca)</td>
+        <td>María de Lourdes Mungia</td>
+        <td>18189</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>29/sep</td>
+      </tr>
+      <tr>
+          <td>CDC 07</td>
+        <td>Aux. de Zona</td>
+        <td>Daniel Josue Lara Gonzalez</td>
+        <td>19278</td>
+        <td>08:00hrs a 45:00hrs.</td>
+        <td>24/may</td>
+      </tr>
+      <tr>
+        <td>CDC 07</td>
+        <td>Trabajadora Social</td>
+        <td>Silvia García Atrixco</td>
+        <td>18415</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>27/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 07</td>
+        <td>Odontologa</td>
+        <td>Chantal Ramirez Castellanos </td>
+        <td>19216</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>19/ago</td>
+      </tr>
+      <tr>
+        <td>CDC 07</td>
+        <td>Promotor Infantil</td>
+        <td>Gabriela Calderon Rico </td>
+        <td>19746</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>18/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 07</td>
+        <td>Psicóloga</td>
+        <td>Perla Elena Montes Gutierrez </td>
+        <td>19227</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>27/mar</td>
+      </tr>
+      <tr>
+        <td>CDC 08</td>
+        <td>Aux. de Zona</td>
+        <td>German Antonio Vallejo Salcedo</td>
+        <td>19279</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>29/may</td>
+      </tr>
+      <tr>
+        <td>CDC 08</td>
+        <td>Trabajadora Social</td>
+        <td>Circe Araceli Gallo Sandoval</td>
+        <td>19473</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>20/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 08</td>
+        <td>Intendente</td>
+        <td>Ma. de la Luz Lomelí GOnzalez </td>
+        <td>18693</td>
+        <td>14:00hrs a 20:00hrs.</td>
+        <td>24/ene</td>
+      </tr>
+      <tr>
+        <td>CDC 10</td>
+        <td>Supervisor </td>
+        <td>José de Jesús Ornelas de la Paz</td>
+        <td>19292</td>
+        <td>12:00hrs a 20:00hrs.</td>
+        <td>16/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 10</td>
+        <td>Trabajadora Social</td>
+        <td>Adriana Guadalupe Heredia Covarrubias</td>
+        <td>19405</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>31/ene</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 10</td>
+        <td> Psicóloga </td>
+        <td>Cyntia Chavez Bermudez </td>
+        <td>19443</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>17/nov</td>
+        <td>(Actualmente cuenta con licencia sin goce de sueldo)</td>
+      </tr>
+      <tr>
+        <td>CDC 11</td>
+        <td>Odontologo </td>
+        <td>Guillermo Ochoa Sanchez</td>
+        <td>18647</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>21/feb</td>
+      </tr>
+      <tr>
+        <td>CDC 11</td>
+        <td>Trabajadora Social</td>
+        <td>Angelica Mercedes Bracamontes Gutierrez</td>
+        <td>18987</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>29/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 13</td>
+        <td>Aux. de Zona </td>
+        <td>Carolina Loyola Rodriguez</td>
+        <td>19829</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>28/ene</td>
+      </tr>
+      <tr>
+        <td>CDC 13</td>
+        <td>Trabajadora Social</td>
+        <td>Ana Belinda Mendéz Martínez</td>
+        <td>18365</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>17/ene</td>
+      </tr>
+      <tr>
+        <td>CDC 13</td>
+        <td>Trabajadora Social</td>
+        <td>Joel Alejandro</td>
+        <td>18443</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>2/nov</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 13</td>
+        <td> Instructora </td>
+        <td>Rosa María Solis Sanchez </td>
+        <td>18309</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>13/jul</td>
+        <td>(Solo acude lunes y martes-miercoles,jueves y viernes en CDCN°22)</td>
+      </tr>
+      <tr>
+        <td>CDC 14</td>
+        <td>Aux. de Zona </td>
+        <td>Ma Guadalupe Ortiz Bernal</td>
+        <td>18354</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>4/jul</td>
+      </tr>
+      <tr>
+        <td>CDC 14</td>
+        <td>Trabajadora Social</td>
+        <td>Ruth Adriana Plascencia Ceja</td>
+        <td>18894</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>16/dic</td>
+      </tr>
+      <tr>
+        <td>CDC 14</td>
+        <td>Promotora Infantil</td>
+        <td>Susana Aragon Manzano</td>
+        <td>18844</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>10/may</td>
+      </tr>
+      <tr >
+        <td>CDC 14</td>
+        <td> Intendente </td>
+        <td>María de Jesús Castro Hernández </td>
+        <td>18717</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>25/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td>Aux. de Centro </td>
+        <td>María Isabel Castañon Lugo</td>
+        <td>18671</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>9/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td>Trabajadora Social</td>
+        <td>Olga Lidia Herrera Serrano</td>
+        <td>19384</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>10/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td>Trabajadora Social</td>
+        <td>María Lucia Vazquez Romero</td>
+        <td>18626</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>14/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td>Promotora Infantil</td>
+        <td>Angel Guillermo Campos Quirarte</td>
+        <td>19145</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>11/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td> Psicologa </td>
+        <td>Monica Guzmán Rojas </td>
+        <td>18824</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>18/mar</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 17</td>
+        <td> Instructora </td>
+        <td>Ana Luisa Diaz Beas </td>
+        <td>18441</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>6/jul</td>
+        <td>(Solo acude Lunes, miercoles y viernes) </td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td> Cocinera </td>
+        <td>Alejandra Ulloa Velázquez </td>
+        <td>19459</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>19/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 17</td>
+        <td> Intendente </td>
+        <td>Graciela Villagrana solorio </td>
+        <td>19818</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>9/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 18</td>
+        <td>Aux. de Centro </td>
+        <td>Eugenia Bibiano Transito</td>
+        <td>19057</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>13/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 18</td>
+        <td>Trabajadora Social</td>
+        <td>OLeticia Lázaro Vega</td>
+        <td>18985</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>24/jul</td>
+      </tr>
+      <tr>
+        <td>CDC 18</td>
+        <td>Trabajadora Social</td>
+        <td>Aydee Alicia Martínez Loncheo</td>
+        <td>19109</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>12/ago</td>
+      </tr>
+      <tr>
+        <td>CDC 18</td>
+        <td>Promotora Infantil</td>
+        <td>NeymaLucero Barraza Alvarado</td>
+        <td>18879</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>3/mar</td>
+      </tr>
+      <tr>
+        <td>CDC 18</td>
+        <td> Psicologa </td>
+        <td>Alejandra Altamirano Marquez </td>
+        <td>19221</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>29/agos</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 18</td>
+        <td> Instructora </td>
+        <td>Virginia Aldama Cuenca </td>
+        <td>18631</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>13/jul</td>
+        <td>(Solo acude Lunes, miercoles y viernes) </td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td>Aux. de Zona </td>
+        <td>Alejandra Leal Garcia</td>
+        <td>19273</td>
+        <td>09:00hrs a 17:00hrs.</td>
+        <td>12/ene</td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td>Trabajadora Social</td>
+        <td>Julia María Gacía corona</td>
+        <td>19073</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>3/NOV</td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td>Trabajadora Social</td>
+        <td>Paola Trinidad Jimenez Sahagun </td>
+        <td>18989</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>31/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td>Promotora Infantil</td>
+        <td>Marcela Ramirez Muñoz</td>
+        <td>19293</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>13/may</td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td> Psicologa </td>
+        <td>Juana Martínez Angeles </td>
+        <td>19221</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>29/agos</td>
+      </tr>
+      <tr>
+        <td>CDC 19</td>
+        <td> Aux. General </td>
+        <td>Guillermo Ricardo Carrillo Montoya</td>
+        <td>19076</td>
+        <td>14:00hrs a 20:00hrs.</td>
+        <td>7/feb</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 19</td>
+        <td> Instructor </td>
+        <td>Carlos Alberto Sanabria Villanueva  </td>
+        <td>19073</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>9/ago</td>
+        <td>(Comisionado a H.P) </td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 19</td>
+        <td> Intendente </td>
+        <td>Alejandra lepe Lazaro</td>
+        <td>19745</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>11/ago</td>
+        <td>(Comisionado a Servicios Generales) </td>
+      </tr>
+      <tr>
+        <td>CDC 20</td>
+        <td>Aux. de Centro (recpcionista) </td>
+        <td>Edgar Humberto Reyes Correa</td>
+        <td>19056</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>24/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 20</td>
+        <td>Trabajadora Social</td>
+        <td>Elia Galvan Vargas</td>
+        <td>19078</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>30/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 20</td>
+        <td>Trabajadora Social</td>
+        <td>Ana Luisa Villa García Espinoza</td>
+        <td>18262</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>22/jun</td>
+      </tr>
+      <tr>
+        <td>CDC 20</td>
+        <td>Promotora Infantil</td>
+        <td>Sandra Esmeraldo Gallardo Lopez</td>
+        <td>18882</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>8/nov</td>
+      </tr>
+      <tr>
+        <td>CDC 20</td>
+        <td> Psicologa </td>
+        <td>Maria Esther Delgado Razura</td>
+        <td>19189</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>26/may</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 20</td>
+        <td> Intendente </td>
+        <td>Ana rosa Vazquez Navarro </td>
+        <td> ---</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>---</td>
+        <td>(Comisionada a CDC N°3) </td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td>Aux. Administrativa </td>
+        <td>Silvia Álvarez Isordia</td>
+        <td>19881</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>13/ago</td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td>Trabajadora Social</td>
+        <td>Nelly Liliana Díaz Rivera</td>
+        <td>19404</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>27/sep</td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td>Instructos</td>
+        <td>María de Lourdes Quiroz López</td>
+        <td>18337</td>
+        <td>11:00hrs a 17:00hrs.</td>
+        <td>3/jun</td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td>Promotora Infantil</td>
+        <td>Claudia Elizabeth Martinez Cortes</td>
+        <td>19572</td>
+        <td>08:00hrs a 16:00hrs.</td>
+        <td>14/jul</td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td>Odontologo</td>
+        <td>María del Pilar Escobedo Valladares</td>
+        <td>19011</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>12/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 22</td>
+        <td> Psicologa </td>
+        <td>Gianina Elizabeth Villaseñor Carbajal</td>
+        <td>19448</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>25/ar</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 22</td>
+        <td> Instructora </td>
+        <td>Rosa María Solis Sanchez </td>
+        <td>18309</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>13/jul</td>
+        <td>(Solo acude miercoles,jueves y viernes)</td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td>CDC 22</td>
+        <td> Instructor </td>
+        <td>Alfredo Ruíz Díaz</td>
+        <td>19466</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>23/ago</td>
+        <td>(Comisionado a H.P) </td>
+      </tr>
+      <tr>
+        <td>CDC 24</td>
+        <td>Aux. de Centro </td>
+        <td>Karina Isabel González Parra Corral</td>
+        <td>-----</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>8/abr</td>
+      </tr>
+      <tr>
+        <td>CDC 24</td>
+        <td>Trabajadora Social</td>
+        <td>María Elena Pérez Orendain</td>
+        <td>19342</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>18342</td>
+      </tr>
+      <tr>
+        <td>CDC 24</td>
+        <td>Trabajadora Social</td>
+        <td>Gisela Elizabeth Quintero Hernández</td>
+        <td>19226</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>23/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 24</td>
+        <td>Odontologo</td>
+        <td>María del Pilar Escobedo Valladares</td>
+        <td>19011</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>12/oct</td>
+      </tr>
+      <tr>
+        <td>CDC 24</td>
+        <td> Psicologa </td>
+        <td>Beatriz Ruíz Bello </td>
+        <td>---</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>----</td>
+      </tr>
+      <tr>
+        <td>CRES</td>
+        <td>Instructor </td>
+        <td>Ismaelina García Villaseñor</td>
+        <td>19467</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>----</td>
+      </tr>
+      <tr>
+        <td>UCCI</td>
+        <td>Aux. de Centro </td>
+        <td>Laura Lourdes Torres Cardenas</td>
+        <td>19040</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>6/jun</td>
+      </tr>
+      <tr>
+        <td>UCCI</td>
+        <td>Instructor</td>
+        <td>Laura Moya Gervacio</td>
+        <td>18742</td>
+        <td>08:00hrs a 14:00hrs.</td>
+        <td>5/jul</td>
+      </tr>
+      <tr>
+        <td>UCCI</td>
+        <td>Instructor</td>
+        <td>Virginia Almanza Basurto</td>
+        <td>18597</td>
+        <td>09:00hrs a 15:00hrs.</td>
+        <td>21/feb</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+  $(document).ready(function() {
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myTable tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
